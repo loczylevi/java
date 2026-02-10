@@ -1,6 +1,6 @@
 # java
 
-```
+```java
 
 package hu.sajat.helloworld;
 
