@@ -1,5 +1,14 @@
 # java
 
+```
+variable = (condition) ? expressionTrue :  expressionFalse;
+```
+```java
+int time = 20;
+String result = (time < 18) ? "Good day." : "Good evening.";
+System.out.println(result);
+```
+
 ```java
 
 package hu.sajat.helloworld;
