@@ -1,5 +1,19 @@
 # java
 
+
+
+```java
+	
+// hiba elkapás
+try {
+	student.RemoveCar("GUGU-777"); //hibás rendszám
+	student.RemoveCar("AAA-000");
+} catch (Exception error) {
+	System.out.println(error.getMessage());
+	error.printStackTrace();   // mutatja hol a hiba
+}
+```
+		
 ```
 variable = (condition) ? expressionTrue :  expressionFalse;
 ```
