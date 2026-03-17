@@ -2,11 +2,11 @@
 
 ## Láthatóság hint:
 
-private: Csak az adott osztály látja. (A gyerek osztály nem!)
+__private__: Csak az adott osztály látja. (A gyerek osztály nem!)
 
-public: Mindenki látja. (Nincs adatbiztonság.)
+__public__: Mindenki látja. (Nincs adatbiztonság.)
 
-protected: Csak az adott osztály ÉS annak leszármazottai (gyerekei) látják.
+__protected__: Csak az adott osztály ÉS annak leszármazottai (gyerekei) látják.
 
 ________________________________________________________________________________
 
