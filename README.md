@@ -1,5 +1,13 @@
 # java
 
+## Láthatóság hint:
+
+private: Csak az adott osztály látja. (A gyerek osztály nem!)
+
+public: Mindenki látja. (Nincs adatbiztonság.)
+
+protected: Csak az adott osztály ÉS annak leszármazottai (gyerekei) látják.
+
 
 
 ```java
