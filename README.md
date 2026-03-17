@@ -8,7 +8,7 @@ public: Mindenki látja. (Nincs adatbiztonság.)
 
 protected: Csak az adott osztály ÉS annak leszármazottai (gyerekei) látják.
 
-
+________________________________________________________________________________
 
 ```java
 	
