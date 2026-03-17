@@ -8,6 +8,7 @@ __public__: Mindenki látja. (Nincs adatbiztonság.)
 
 __protected__: Csak az adott osztály ÉS annak leszármazottai (gyerekei) látják.
 
+__abstract__: igazábol ez annyit jelent hogy nem tudod példányositani az osztályt
 ________________________________________________________________________________
 ## 1. Az Ősosztály (Vehicle)
 ```java
