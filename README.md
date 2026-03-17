@@ -9,6 +9,42 @@ __public__: Mindenki látja. (Nincs adatbiztonság.)
 __protected__: Csak az adott osztály ÉS annak leszármazottai (gyerekei) látják.
 
 ________________________________________________________________________________
+## 1. Az Ősosztály (Vehicle)
+```java
+public class Vehicle {
+    protected String brand; // A 'protected' miatt a gyerekosztály látja!
+
+    // Ős konstruktor
+    public Vehicle(String brand) {
+        this.brand = brand;
+        System.out.println("Vehicle konstruktor lefutott: " + brand);
+    }
+
+    public void honk() {
+        System.out.println("Tütűűű!");
+    }
+}
+```
+## 2. A Gyerekosztály (Car)
+```java
+public class Car extends Vehicle {
+    private int horsePower;
+
+    public Car(String brand, int hp) {
+        // 1. super() - Mindig az első sor kell legyen! 
+        // Meghívja a Vehicle(brand) konstruktorát.
+        super(brand); 
+        
+        this.horsePower = hp;
+    }
+
+    public void displayInfo() {
+        // Mivel a 'brand' PROTECTED a szülőben, 
+        // itt közvetlenül elérem, nem kell getter!
+        System.out.println("Ez egy " + brand + ", " + horsePower + " lóerővel.");
+    }
+}
+```
 
 ```java
 	
